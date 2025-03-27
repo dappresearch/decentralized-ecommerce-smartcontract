@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "latestRoundData",
+				"outputs": [
+					{
+						"internalType": "uint80",
+						"name": "roundId",
+						"type": "uint80"
+					},
+					{
+						"internalType": "int256",
+						"name": "answer",
+						"type": "int256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "startedAt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "updatedAt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint80",
+						"name": "answeredInRound",
+						"type": "uint80"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"src/mocks/MockAggregratorV3Interface.sol": "MockAggregratorV3Interface"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": [
+			":@chainlink/=lib/chainlink-brownie-contracts/",
+			":@openzeppelin/=lib/openzeppelin-contracts/",
+			":@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+			":erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+			":forge-std/=lib/forge-std/src/",
+			":openzeppelin-contracts/=lib/openzeppelin-contracts/"
+		]
+	},
+	"sources": {
+		"lib/forge-std/src/console.sol": {
+			"keccak256": "0xf61cb43a94d8318049d0a7f567af8c0aa952b5762a43851b130b90b3fcde0c6a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://53a52c6c3aeb22f7a18f53fca16af590308a8e3e5507e74df9b8e2561c932194",
+				"dweb:/ipfs/QmaaXuY8mC66YoE2xyZdWuLHXqAxLjbnNxiofx8BTP1MRn"
+			]
+		},
+		"src/mocks/MockAggregratorV3Interface.sol": {
+			"keccak256": "0xfccc5871653ed8387633a19250103bd4ed52b63ce76406ae40acd4af3f5eef0f",
+			"license": "No License",
+			"urls": [
+				"bzz-raw://167338b2c1f2e378b1326baae87f5024051df2fcb2279a77109c55e79ce9fd86",
+				"dweb:/ipfs/QmeogfdeXmn7GHW4rkVzZogxvkSNrwnJRieFjWUeEaAhe7"
+			]
+		}
+	},
+	"version": 1
+}
