@@ -1,4 +1,4 @@
-## Experimental Decentralize Ecommerce(DeCom)
+## Experimental Decentralize Ecommerce
 
 This is an ongoing working in progress experimental decentralize store, which will be deployed on one of the ethereum layer2 network. This store can only list one item for simplicity, since it a demo version. 
 
@@ -18,8 +18,14 @@ Sepolia
 contract=0x1C7595cD405Eb31437Fe682c2F603E0813d6C9eD
 priceV3Contract=0xC95C9f4680489A720701f8C90830EE8656996Ec3
 
+Frontend: https://github.com/dappresearch/decentralized-ecommerce-frontend
+
+Admin(order management): https://github.com/dappresearch/decentralized-ecommerce-admin
+
 
 ## Setup
+
+Create .env file at the root folder and structure the variables accordintly with respect to .env.example.
 
 ```
 $ forge build
