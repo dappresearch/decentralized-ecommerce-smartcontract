@@ -22,10 +22,13 @@ Frontend: https://github.com/dappresearch/decentralized-ecommerce-frontend
 
 Admin(order management): https://github.com/dappresearch/decentralized-ecommerce-admin
 
+[Watch Demo Video]: https://www.youtube.com/watch?v=HW9AnF894Go
+
+
 
 ## Setup
 
-Create .env file at the root folder and structure the variables accordintly with respect to .env.example.
+Create .env file at the root folder and structure the variables accordingly with respect to .env.example.
 
 ```
 $ forge build
