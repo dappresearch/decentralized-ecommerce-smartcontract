@@ -25,7 +25,6 @@ Admin(order management): https://github.com/dappresearch/decentralized-ecommerce
 [Watch Demo Video]: https://www.youtube.com/watch?v=HW9AnF894Go
 
 
-
 ## Setup
 
 Create .env file at the root folder and structure the variables accordingly with respect to .env.example.
