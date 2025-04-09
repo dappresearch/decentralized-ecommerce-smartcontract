@@ -22,9 +22,13 @@ Frontend: https://github.com/dappresearch/decentralized-ecommerce-frontend
 
 Admin(order management): https://github.com/dappresearch/decentralized-ecommerce-admin
 
-[Watch Demo Video]: https://www.youtube.com/watch?v=HW9AnF894Go
 
-This is the demo
+## Tutorial video
+
+Full video: https://youtu.be/HW9AnF894Go
+
+Smart contract deployment video: https://youtu.be/oLbxRzAavDQ
+
 ## Setup
 
 Create .env file at the root folder and structure the variables accordingly with respect to .env.example.
